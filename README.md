@@ -3,48 +3,42 @@
 ## 1. Introduction
 Maze is one of the most well-known game, this repository will tell how to solve the game in the shortest way possible.
 
-### 2. Specialty:
-- Can create a `png` file when it finish solving the maze.
-- Give the best solution when there are more than one solutions.
-  
 ![Maze Game](https://i.pinimg.com/originals/4f/75/df/4f75df7999c8eb8405e9a5c6b6271e27.jpg)---
 
-## 2. Hướng dẫn chơi game
-1. **Mục tiêu**: Điều khiển rắn để ăn thức ăn, ghi điểm và tránh va chạm.
-2. **Điều khiển**:
-   - Sử dụng các **phím mũi tên** để di chuyển:
-     - ↑: Di chuyển lên.
-     - ↓: Di chuyển xuống.
-     - →: Di chuyển sang phải.
-     - ←: Di chuyển sang trái.
-   - Rắn sẽ tăng chiều dài mỗi khi ăn được thức ăn.
-3. **Kết thúc trò chơi**:
-   - Va vào tường hoặc chính cơ thể rắn.
+---
+## 2. Features
+Here are the key features of this project:
+
+- A Algorithm*: The program uses the A* search algorithm to find the shortest path from start (A) to goal (B).
+- Heuristic-Based Search: Leverages the Manhattan distance heuristic to efficiently explore paths.
+- Graphical Output: Generates a .png image that visually represents:
+  - The maze structure.
+  - Explored states.
+- The optimal solution path.
+- Customizable Mazes: Supports user-defined maze files in plain text format.
+- Error Handling: Ensures the maze has valid start and goal points and gracefully handles edge cases.
 
 ---
 
-## 3. Hướng dẫn run code sau khi clone code về
-### Bước 1: Clone repository
-Di chuyển tới thư mục tải game snake:
+## 3. How to Use
+### Step 1: Clone repository 
 ```bash
-cd /.../.../...
+git clone https://github.com/howardVoxcan/Maze_Solver.git
+cd Maze_Solver
 ```
 
-Tại thư mục, dùng lệnh git clone sau để clone về máy :
+### Step 2: Run code
 ```bash
-git clone https://github.com/howardVoxcan/SS004.P12_Snake.git
+python main.py <maze_file.txt>
 ```
 
-### Bước 2: Khởi chạy code và run code
-Thực hiện lệnh biên dịch sau:
-```bash
-g++ snake.cpp -o <Tên dùng để khởi chạy>
-./<Tên dùng để khởi chạy ở trên>
-```
+## 4. Requirements
+Ensure the following are installed:
+- Python 3.x
+- Pillow library for generating images (pip install pillow)
+- Prepare a maze file in plain text format, like `maze1.txt`, `maze2.txt` or `maze3.txt`
 
-##Chúc bạn chơi game vui vẻ! 🎮
-
-
-
-
-
+### About `txt` file
+- `A`: the starting destination
+- `B`: the goal destination
+- `#`: the wall
