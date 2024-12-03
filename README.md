@@ -1,7 +1,7 @@
 # Maze Solver 🗺️
 
 ## 1. Introduction
-Maze is one of the most well-known game, this repository will tell how to solve the game in the shortest way possible.
+Maze is one of the most well-known game, this repository will tell how to solution to win the game.
 
 ![Maze Game](https://i.pinimg.com/originals/4f/75/df/4f75df7999c8eb8405e9a5c6b6271e27.jpg)
 
