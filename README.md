@@ -45,3 +45,4 @@ Ensure the following are installed:
 - `A`: the starting destination
 - `B`: the goal destination
 - `#`: the wall
+- `<blank space>`: the path
