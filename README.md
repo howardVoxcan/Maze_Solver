@@ -6,10 +6,8 @@ Maze is one of the most well-known game, this repository will tell how to solve 
 ### 2. Specialty:
 - Can create a `png` file when it finish solving the maze.
 - Give the best solution when there are more than one solutions.
-![maze](https://github.com/user-attachments/assets/9daf9c5a-fad4-428a-8bfb-ca32f03700e5)
-
-![Snake Game](https://www.coolmathgames.com/sites/default/files/Snake_OG-logo.jpg)
-
+  
+(maze)[https://i.pinimg.com/originals/4f/75/df/4f75df7999c8eb8405e9a5c6b6271e27.jpg]
 ---
 
 ## 2. Hướng dẫn chơi game
